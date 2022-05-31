@@ -13,10 +13,13 @@ body {
 
 /*  */
 
+h1{
+    transition: 0.5s ease-in-out;
+}
+
 h1:hover{
     color: rgba(27, 20, 159, 0.759);
     animation: changecolor;
-    transition: 0.5s ease-in-out;
 }
 
 
@@ -90,6 +93,7 @@ li{
     background-color: rgba(13, 13, 236, 0.719);
     padding-top: 15px;
     padding-bottom: 15px;
+    transition: 1s ease-in-out;
 }
 
 
@@ -186,7 +190,6 @@ li{
 .form-wrapper:hover {
     animation: changeColor;
     background-color: rgb(116, 19, 189);
-    transition: 1s ease-in-out;
 }
 
 
