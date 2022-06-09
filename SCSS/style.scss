@@ -93,11 +93,6 @@
 	justify-content: space-evenly;
 }
 
-.videos {
-	margin: 20px;
-	width: 100%;
-}
-
 h1 {
 	transition: all .9s ease-in-out;
 	&:hover {
@@ -126,3 +121,23 @@ h1 {
 	}
 }
 
+@media screen and (max-width: 1024px) {
+	.row {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.row {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.row {
+		display: flex;
+		justify-content: center;
+	}
+}
