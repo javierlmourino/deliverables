@@ -1,0 +1,23 @@
+.nav-link {
+    font-size: x-large;
+    text-decoration: solid;
+    transform: all 0.5s easy-in-out;
+    &:hover {
+        transform: scale(1, 1);
+        color: navy;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.nav-item {
+    padding-left: 100px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    position: sticky;
+}

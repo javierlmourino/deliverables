@@ -1,33 +1,10 @@
-/* comentario en sass y en CSS */
-.nav-link {
-    font-size: x-large;
-    text-decoration: solid;
-    transform: all 0.5s easy-in-out;
-    &:hover {
-        transform: scale(1, 1);
-        color: navy;
-        font-family: 'Poppins', sans-serif;
-    }
-}
+@import "components/body";
+@import "components/form";
+@import "components/nav";
 
-.navbar-collapse {
-    display: flex;
-    justify-content: flex-end;
-}
 
 @mixin fontbold{
     font-weight: bold;
-}
-
-.nav-item {
-    padding-left: 100px;
-}
-
-.form-control {
-    transition: all 0.2s ease-in-out;
-    &:hover {
-        transform: scale(1.1);
-    }
 }
 
 .btn {
@@ -38,37 +15,12 @@
         @include fontbold; }
 }
 
-.form-check-input {
-    transition: all 0.2s ease-in-out;
-    &:hover {
-        transform: scale(1.1);
-        background-color: palegoldenrod;
-    }
-}
-
-.navbar {
-    position: sticky;
-}
-
 .starter {
     padding-top: 40px;
 }
 
-.form-label{
-    @include fontbold;
-    }
-
 .title-starter {
     padding-bottom: 40px;
-}
-
-.form-wrapper {
-    padding-top: 160px;
-}
-
-.form-wrap {
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
 .suscribe {

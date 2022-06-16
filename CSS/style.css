@@ -1,4 +1,6 @@
-/* comentario en sass y en CSS */
+body {
+  background-color: rgba(255, 244, 244, 0.945); }
+
 .nav-link {
   font-size: x-large;
   text-decoration: solid;
