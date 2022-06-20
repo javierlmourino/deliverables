@@ -12,10 +12,10 @@ body {
     transform: scale(1.1);
     background-color: palegoldenrod; }
 
-.form-wrapper {
+.form-label .form-wrapper {
   padding-top: 160px; }
 
-.form-wrap {
+.form-label .form-wrap {
   margin-left: 30px;
   margin-right: 30px; }
 
