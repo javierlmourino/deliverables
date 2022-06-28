@@ -34,9 +34,6 @@
         @include fontbold;
     }
 }
-.flexend {
-    @extend .navbar-collapse
-}
 
 .col-md-4 {
     padding-bottom: 20px;
@@ -46,10 +43,6 @@
     padding-bottom: 40px;
 }
 
-.flex {
-    @extend .row
-}
-
 h1 {
     transition: all .9s ease-in-out;
     &:hover {
@@ -57,44 +50,61 @@ h1 {
     }
 }
 
+@media screen and (max-width: 3000px) {
+    .toplogo {
+        width: 100%;
+        height: 60px;
+    }
+
+    .form-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 50px;
+    }
+
+}
+
 @media screen and (max-width: 1024px) {
     .toplogo {
         width: 100%;
         height: 60px;
     }
+
+    .form-wrapper {
+        display: flex;
+        justify-content: center;
+        padding-right: 120px;
+        padding-left: 120px;
+        padding-top: 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .toplogo {
         width: 100%;
-        height: 37px;
     }
+
+    .form-wrapper {
+        display: flex;
+        justify-content: center;
+        padding-right: 120px;
+        padding-left: 120px;
+        padding-top: 50px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
     .toplogo {
         width: 100%;
-        height: 18px;
     }
-}
 
-@media screen and (max-width: 1024px) {
-    .row {
+    .form-wrapper {
         display: flex;
         justify-content: center;
+        padding-right: 120px;
+        padding-left: 120px;
+        padding-top: 50px;
     }
-}
 
-@media screen and (max-width: 768px) {
-    .row {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .row {
-        display: flex;
-        justify-content: center;
-    }
 }

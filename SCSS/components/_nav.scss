@@ -13,11 +13,17 @@
     padding-left: 100px;
 }
 
-.navbar-collapse {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .navbar {
     position: sticky;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;}
+
+.navbar-brand
+    .img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
