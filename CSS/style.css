@@ -1,6 +1,7 @@
 body {
   background-color: rgba(244, 247, 255, 0.94);
 }
+
 body .youtube-container {
   padding-bottom: 78px;
 }
@@ -8,13 +9,16 @@ body .youtube-container {
 .form-control {
   transition: all 0.2s ease-in-out;
 }
+
 .form-control:hover {
   transform: scale(1.1);
   border: 3px solid rgba(51, 51, 51, 0.288);
 }
+
 .form-control:active {
   border: 3px solid aquamarine;
 }
+
 .form-control:focus {
   border: 3px solid aquamarine;
 }
@@ -22,6 +26,7 @@ body .youtube-container {
 .suscribe {
   transition: all 0.2s ease-in-out;
 }
+
 .suscribe:hover {
   transform: scale(1.1);
 }
@@ -31,14 +36,17 @@ body .youtube-container {
   justify-content: flex-end;
   padding-top: 50px;
 }
+
 .form-wrapper .form-wrap {
   border: 4px solid rgba(48, 48, 48, 0.609);
   padding: 2rem;
   border-radius: 50px;
 }
+
 .form-wrapper .col-md-4 {
   width: 100%;
 }
+
 .form-wrapper .btn {
   background-color: cadetblue;
   border-color: rgba(111, 111, 111, 0.662);
@@ -49,24 +57,24 @@ body .youtube-container {
   transition: all 0.2 ease-in-out;
   cursor: pointer;
 }
+
 .form-wrapper .btn:hover {
   background-color: rgba(102, 197, 165, 0.806);
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
+  text-decoration: solid;
   border-color: rgba(0, 26, 255, 0.731);
   border-style: none;
 }
 
 .nav-link {
   font-size: x-large;
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
+  text-decoration: solid;
   transform: all 0.5s easy-in-out;
 }
+
 .nav-link:hover {
   transform: scale(1, 1);
   color: navy;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-item {
@@ -74,7 +82,6 @@ body .youtube-container {
 }
 
 .navbar {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -83,7 +90,8 @@ body .youtube-container {
   justify-content: flex-end;
 }
 
-.navbar-brand .img {
+.navbar-brand
+.img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -92,6 +100,7 @@ body .youtube-container {
 .btn {
   transition: all 0.3s ease-in-out;
 }
+
 .btn:hover {
   transform: scale(1.1);
   color: rgba(255, 255, 255, 0.817);
@@ -109,8 +118,9 @@ body .youtube-container {
 .suscribe {
   padding-bottom: 25px;
   text-align: center;
-  transition: all 0.5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
+
 .suscribe:hover {
   color: indianred;
   transform: scale;
@@ -127,8 +137,9 @@ body .youtube-container {
 }
 
 h1 {
-  transition: all 0.9s ease-in-out;
+  transition: all .9s ease-in-out;
 }
+
 h1:hover {
   color: rgba(44, 0, 238, 0.846);
 }
@@ -138,7 +149,6 @@ h1:hover {
     width: 100%;
     height: 60px;
   }
-
   .form-wrapper {
     display: flex;
     justify-content: center;
@@ -147,12 +157,12 @@ h1:hover {
     padding-left: 350px;
   }
 }
+
 @media screen and (max-width: 2000px) {
   .toplogo {
     width: 100%;
     height: 60px;
   }
-
   .form-wrapper {
     display: flex;
     justify-content: center;
@@ -161,12 +171,12 @@ h1:hover {
     padding-left: 250px;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .toplogo {
     width: 100%;
     height: 60px;
   }
-
   .form-wrapper {
     display: flex;
     justify-content: center;
@@ -175,11 +185,11 @@ h1:hover {
     padding-left: 150px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .toplogo {
     width: 100%;
   }
-
   .form-wrapper {
     display: flex;
     justify-content: center;
@@ -188,11 +198,11 @@ h1:hover {
     padding-left: 60px;
   }
 }
+
 @media screen and (max-width: 480px) {
   .toplogo {
     width: 100%;
   }
-
   .form-wrapper {
     display: flex;
     justify-content: center;
@@ -200,4 +210,4 @@ h1:hover {
     padding-right: 30px;
     padding-left: 30px;
   }
-}/*# sourceMappingURL=style.css.map */
+}

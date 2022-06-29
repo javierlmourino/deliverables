@@ -21,14 +21,15 @@
 
 
 .form-wrapper{
-   display: flex;
-   justify-content: flex-end;
-   padding-top: 50px;
-
      .form-wrap{
         border: 4px solid rgba(48, 48, 48, 0.609);
         padding: 2rem;
         border-radius: 50px;
+        background-color: rgba(178, 178, 178, 0.677);
+        transition: all 0.4s ease-in-out;
+        &:hover{
+            background-color: rgba(82, 114, 152, 0.728);
+        }
      }
 
      .col-md-4{
